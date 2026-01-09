@@ -14,7 +14,7 @@ const app = createApp(App)
 const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate)
 
-app.use(pinia) // 改用注册后的 pinia 实例
+app.use(pinia)
 app.use(router)
 app.use(ElementPlus)
 

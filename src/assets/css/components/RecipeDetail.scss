@@ -70,16 +70,14 @@
       }
     }
 
-    // ========== 重点修改：步骤区域样式 ==========
     .steps-section {
-      // 给步骤区域加浅背景+内边距+圆角，与白背景区分
       background: #f8f9fa; 
       padding: 20px;
       border-radius: 8px;
       border: 1px solid #e9ecef;
 
       .steps-list {
-        padding-left: 0; // 去掉默认列表缩进
+        padding-left: 0;
         margin: 0;
 
         .step-item {
@@ -89,22 +87,21 @@
           font-size: 16px;
           line-height: 1.8;
           padding-bottom: 16px;
-          border-bottom: 1px dashed #dee2e6; // 步骤间加虚线分隔
-          // 最后一个步骤去掉下边框
+          border-bottom: 1px dashed #dee2e6; 
+
           &:last-child {
             border-bottom: none;
             margin-bottom: 0;
             padding-bottom: 0;
           }
 
-          // 步骤数字：加大尺寸+醒目背景+白色文字
           .step-number {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 32px; // 加大尺寸
+            width: 32px;
             height: 32px;
-            background: #1989fa; // 醒目蓝色背景
+            background: #1989fa;
             color: #fff;
             border-radius: 50%;
             text-align: center;
@@ -116,7 +113,7 @@
 
           .step-content {
             flex: 1;
-            color: #333; // 加深文字颜色，增强对比度
+            color: #333;
           }
         }
       }

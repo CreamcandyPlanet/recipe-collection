@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy:gitee": "vite build && gh-pages -d dist -b gitee-pages -r git@gitee.com:milk-candy-planet/recipe-collection.git"
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "axios": "^1.6.2",

@@ -1,9 +1,11 @@
-import { createRouter, createWebHistory } from 'vue-router'
-// 替换@别名 → 用../指向src根目录
+import { createRouter, createWebHashHistory } from 'vue-router'
 import MainLayout from '../layouts/MainLayout.vue'
 import Home from '../pages/Home.vue'
 import RecipeDetail from '../pages/RecipeDetail.vue'
 import Collection from '../pages/Collection.vue'
+
+// 读取 Vite 配置的基础路径
+const baseUrl = import.meta.env.BASE_URL
 
 const routes = [
   {
@@ -18,7 +20,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(baseUrl), 
   routes
 })
 

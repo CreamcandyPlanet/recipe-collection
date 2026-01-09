@@ -21,18 +21,17 @@
     background: transparent;
     color: #fff;
 
-    // 强化菜单项样式，提升优先级
     .el-menu-item {
-      color: #fff !important; // 强制白色字体
+      color: #fff !important;
       font-size: 16px;
-      height: 60px; // 与header高度对齐，避免文字垂直偏移
+      height: 60px; 
       line-height: 60px;
 
       // 激活/hover状态
       &:hover, 
       &.is-active {
-        color: #fff !important; // 确保激活后字体仍为白色
-        background: rgba(255, 255, 255, 0.2) !important; // 浅背景增强对比度
+        color: #fff !important;
+        background: rgba(255, 255, 255, 0.2) !important;
       }
     }
   }
