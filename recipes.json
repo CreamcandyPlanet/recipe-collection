@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "番茄炒蛋",
-    "cover": "/images/tomato-egg.jpg",
+    "cover": "./images/tomato-egg.jpg",
     "ingredients": ["番茄", "鸡蛋", "盐", "糖", "食用油"],
     "steps": [
       "番茄切块，鸡蛋打散加少许盐",
