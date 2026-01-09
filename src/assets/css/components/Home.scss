@@ -1,0 +1,28 @@
+.home-page {
+  padding: 20px;
+
+  .search-container {
+    margin-bottom: 30px;
+  }
+
+  .filter-result {
+    margin-bottom: 20px;
+    font-size: 16px;
+
+    .keyword {
+      color: #1989fa;
+      font-weight: 600;
+    }
+  }
+
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+  }
+
+  .empty-state {
+    margin-top: 50px;
+    text-align: center;
+  }
+}

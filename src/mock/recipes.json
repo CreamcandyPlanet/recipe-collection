@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "番茄炒蛋",
+    "cover": "/src/assets/images/tomato-egg.jpg",
+    "ingredients": ["番茄", "鸡蛋", "盐", "糖", "食用油"],
+    "steps": [
+      "番茄切块，鸡蛋打散加少许盐",
+      "热油炒鸡蛋至凝固，盛出备用",
+      "热油炒番茄出汁，加少许糖和盐调味",
+      "倒入炒好的鸡蛋翻炒均匀即可"
+    ],
+    "cookTime": 15,
+    "difficulty": "简单"
+  },
+  {
+    "id": 2,
+    "title": "青椒肉丝",
+    "cover": "/src/assets/images/green-pepper-pork.jpg",
+    "ingredients": ["青椒", "猪肉", "生抽", "淀粉", "盐", "料酒"],
+    "steps": [
+      "猪肉切丝，用生抽、料酒、淀粉腌制10分钟",
+      "青椒切丝备用",
+      "热油炒香肉丝至变色，盛出备用",
+      "热油炒青椒至断生，加入肉丝翻炒",
+      "加少许盐调味即可出锅"
+    ],
+    "cookTime": 20,
+    "difficulty": "中等"
+  },
+  {
+    "id": 3,
+    "title": "凉拌黄瓜",
+    "cover": "/src/assets/images/cucumber-salad.jpg",
+    "ingredients": ["黄瓜", "蒜末", "生抽", "醋", "香油", "小米辣"],
+    "steps": [
+      "黄瓜拍碎切块，放入碗中",
+      "加入蒜末、生抽、醋、香油、小米辣",
+      "搅拌均匀，腌制5分钟即可食用"
+    ],
+    "cookTime": 10,
+    "difficulty": "简单"
+  }
+]

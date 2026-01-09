@@ -1,0 +1,26 @@
+.collection-page {
+  padding: 20px;
+
+  .collection-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .collection-count {
+      font-size: 16px;
+      color: #666;
+    }
+  }
+
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+  }
+
+  .empty-state {
+    margin-top: 50px;
+    text-align: center;
+  }
+}

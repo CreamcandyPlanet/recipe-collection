@@ -1,0 +1,52 @@
+.main-header {
+  background: #1989fa;
+  color: #fff;
+  padding: 0;
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .nav-menu {
+    background: transparent;
+    color: #fff;
+
+    // 强化菜单项样式，提升优先级
+    .el-menu-item {
+      color: #fff !important; // 强制白色字体
+      font-size: 16px;
+      height: 60px; // 与header高度对齐，避免文字垂直偏移
+      line-height: 60px;
+
+      // 激活/hover状态
+      &:hover, 
+      &.is-active {
+        color: #fff !important; // 确保激活后字体仍为白色
+        background: rgba(255, 255, 255, 0.2) !important; // 浅背景增强对比度
+      }
+    }
+  }
+}
+
+.main-content {
+  background: #f5f7fa;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 10px 0;
+  color: #666;
+  font-size: 14px;
+}
